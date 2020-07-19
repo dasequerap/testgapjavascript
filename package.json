@@ -1,0 +1,34 @@
+{
+  "name": "testgapjavascript",
+  "version": "1.0.0",
+  "description": "Test for Growth Acceleration Partnets",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": [
+      "**/*.steps.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasequerap/testgapjavascript.git"
+  },
+  "keywords": [
+    "test",
+    "gap",
+    "jest"
+  ],
+  "author": "Diego Armando Sequera Pulido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasequerap/testgapjavascript/issues"
+  },
+  "homepage": "https://github.com/dasequerap/testgapjavascript#readme",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-cucumber": "^2.0.11"
+  }
+}
